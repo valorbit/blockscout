@@ -11,6 +11,13 @@ defmodule BlockScoutWeb.WebRouter do
     plug(:protect_from_forgery)
     plug(BlockScoutWeb.CSPHeader)
     plug(BlockScoutWeb.ChecksumAddress)
+
+    plug Cldr.Plug.SetLocale,
+      apps: [:cldr, gettext: :global ],
+      from: [:query, :accept_language],
+      param: "locale",
+      cldr: BlockScoutWeb.Cldr
+
   end
 
   # Disallows Iframes (write routes)
