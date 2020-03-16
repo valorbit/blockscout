@@ -12,12 +12,12 @@ msgstr ""
 #: lib/block_scout_web/views/address_token_balance_view.ex:7
 msgid "%{count} token"
 msgid_plural "%{count} tokens"
-msgstr[0] "％{count}个令牌"
+msgstr[0] "%{count}个令牌"
 
 #: lib/block_scout_web/templates/block/_tile.html.eex:27
 msgid "%{count} transaction"
 msgid_plural "%{count} transactions"
-msgstr[0] "％{count} 个交易"
+msgstr[0] "%{count} 个交易"
 
 #: lib/block_scout_web/templates/transaction/overview.html.eex:194
 msgid " Token Transfer"
@@ -29,32 +29,34 @@ msgstr "被推荐。"
 
 #: lib/block_scout_web/templates/address/_metatags.html.eex:3
 msgid "%{address} - %{subnetwork} Explorer"
-msgstr "％{address}-％{subnetwork}资源管理器"
+msgstr "%{address}-%{subnetwork}资源管理器"
 
 #: lib/block_scout_web/templates/block/overview.html.eex:8
 msgid "%{block_type} Details"
-msgstr "％{block_type}详细信息"
+msgstr "%{block_type} 详细信息"
 
 #: lib/block_scout_web/templates/block/overview.html.eex:15
 msgid "%{block_type} Height:"
-msgstr "％{block_type}身高："
+msgstr "%{block_type}身高："
 
 #: lib/block_scout_web/templates/block/index.html.eex:10
 msgid "%{block_type}s"
-msgstr "％{block_type} s"
+msgstr "%{block_type}s"
 
+#, elixir-format
 #: lib/block_scout_web/templates/block/overview.html.eex:20
 #: lib/block_scout_web/templates/chain/_block.html.eex:11
 msgid "%{count} Transactions"
-msgstr "％{count} 个交易"
+msgstr "%{count}个交易"
+# msgstr "%{count}个交易"
 
 #: lib/block_scout_web/templates/chain/_metatags.html.eex:2
 msgid "%{subnetwork} %{network} Explorer"
-msgstr "％{subnetwork}％{network}资源管理器"
+msgstr "%{subnetwork}%{network}资源管理器"
 
 #: lib/block_scout_web/templates/layout/_default_title.html.eex:2
 msgid "%{subnetwork} Explorer"
-msgstr "％{subnetwork}资源管理器"
+msgstr "%{subnetwork}资源管理器"
 
 #: lib/block_scout_web/views/transaction_view.ex:184
 msgid "(Awaiting internal transactions for status)"
@@ -89,15 +91,15 @@ msgstr "API文档"
 
 #: lib/block_scout_web/templates/api_docs/_metatags.html.eex:4
 msgid "API endpoints for the %{subnetwork}"
-msgstr "％{subnetwork}的API端点"
+msgstr "%{subnetwork}的API端点"
 
 #: lib/block_scout_web/templates/api_docs/_metatags.html.eex:2
 msgid "API for the %{subnetwork}"
-msgstr "％{subnetwork}的API"
+msgstr "%{subnetwork}的API"
 
 #: lib/block_scout_web/templates/layout/_topnav.html.eex:81
 msgid "APIs"
-msgstr "蜜蜂"
+msgstr "APIs"
 
 #: lib/block_scout_web/templates/layout/_topnav.html.eex:71
 msgid "Accounts"
@@ -160,11 +162,11 @@ msgstr "块"
 #: lib/block_scout_web/templates/internal_transaction/_tile.html.eex:28
 #: lib/block_scout_web/templates/tokens/transfer/_token_transfer.html.eex:48
 msgid "Block #%{number}"
-msgstr "封锁＃％{number}"
+msgstr "封锁＃%{number}"
 
 #: lib/block_scout_web/templates/block/_metatags.html.eex:3
 msgid "Block %{block_number} - %{subnetwork} Explorer"
-msgstr "区块％{block_number}-％{subnetwork}资源管理器"
+msgstr "区块%{block_number}-%{subnetwork}资源管理器"
 
 #: lib/block_scout_web/templates/transaction/overview.html.eex:72
 msgid "Block Confirmations"
@@ -176,7 +178,7 @@ msgstr "块详细信息"
 
 #: lib/block_scout_web/templates/block/overview.html.eex:13
 msgid "Block Height: %{height}"
-msgstr "方块高度：％{height}"
+msgstr "方块高度：%{height}"
 
 #: lib/block_scout_web/templates/layout/app.html.eex:27
 msgid "Block Mined, awaiting import..."
@@ -196,7 +198,7 @@ msgstr "找不到阻止，请稍后再试。"
 
 #: lib/block_scout_web/templates/chain/_metatags.html.eex:4
 msgid "BlockScout provides analytics data, API, and Smart Contract tools for the %{subnetwork}"
-msgstr "BlockScout为％{subnetwork}提供分析数据，API和智能合约工具"
+msgstr "BlockScout为%{subnetwork}提供分析数据，API和智能合约工具"
 
 #: lib/block_scout_web/templates/chain/show.html.eex:81
 #: lib/block_scout_web/templates/layout/_topnav.html.eex:31
@@ -210,7 +212,7 @@ msgstr "索引块"
 
 #: lib/block_scout_web/templates/layout/_footer.html.eex:17
 msgid "Blockscout is a tool for inspecting and analyzing EVM based blockchains. Blockchain explorer for Ethereum Networks."
-msgstr "Blockscout是用于检查和分析基于EVM的区块链的工具。以太坊网络的区块链浏览器。"
+msgstr "Blockscout是用于检查和分析基于EVM的区块链的工具。 Ethereum 网络的区块链浏览器。"
 
 #: lib/block_scout_web/templates/address_token/index.html.eex:28
 #: lib/block_scout_web/templates/address_transaction/index.html.eex:74
@@ -519,7 +521,7 @@ msgstr "尝试提取余额时出错。"
 
 #: lib/block_scout_web/views/transaction_view.ex:188
 msgid "Error: %{reason}"
-msgstr "错误：％{原因}"
+msgstr "错误：%{原因}"
 
 #: lib/block_scout_web/views/transaction_view.ex:186
 msgid "Error: (Awaiting internal transactions for reason)"
@@ -603,7 +605,7 @@ msgstr "得到"
 
 #: lib/block_scout_web/templates/block/overview.html.eex:84
 msgid "Position %{index}"
-msgstr "排名％{index}"
+msgstr "排名%{index}"
 
 #: lib/block_scout_web/templates/block/overview.html.eex:13
 msgid "Genesis Block"
@@ -754,7 +756,7 @@ msgstr "代币转移"
 
 #: lib/block_scout_web/templates/address/_metatags.html.eex:13
 msgid "Top Accounts - %{subnetwork} Explorer"
-msgstr "热门帐户-％{subnetwork}资源管理器"
+msgstr "热门帐户-%{subnetwork}资源管理器"
 
 #: lib/block_scout_web/templates/block/overview.html.eex:67
 msgid "Total Difficulty"
@@ -1212,11 +1214,11 @@ msgstr "总块数"
 
 #: lib/block_scout_web/templates/transaction/_metatags.html.eex:3
 msgid "Transaction %{transaction} - %{subnetwork} Explorer"
-msgstr "交易％{transaction}-％{subnetwork}资源管理器"
+msgstr "交易%{transaction}-%{subnetwork}资源管理器"
 
 #: lib/block_scout_web/templates/transaction/_metatags.html.eex:11
 msgid "Transaction %{transaction}, %{subnetwork} %{transaction}"
-msgstr "交易％{transaction}，％{subnetwork}％{transaction}"
+msgstr "交易%{transaction}，%{subnetwork}%{transaction}"
 
 #: lib/block_scout_web/templates/transaction/overview.html.eex:11
 msgid "Transaction Details"
@@ -1345,15 +1347,15 @@ msgstr "查看更多转账"
 
 #: lib/block_scout_web/templates/address/_metatags.html.eex:9
 msgid "View the account balance, transactions, and other data for %{address} on the %{network}"
-msgstr "查看％{network}上％{address}的帐户余额，交易和其他数据"
+msgstr "查看%{network}上%{address}的帐户余额，交易和其他数据"
 
 #: lib/block_scout_web/templates/block/_metatags.html.eex:10
 msgid "View the transactions, token transfers, and uncles for block number %{block_number}"
-msgstr "查看区块编号为％{block_number}的交易，令牌转移和叔叔"
+msgstr "查看区块编号为%{block_number}的交易，令牌转移和叔叔"
 
 #: lib/block_scout_web/templates/transaction/_metatags.html.eex:10
 msgid "View transaction %{transaction} on %{subnetwork}"
-msgstr "查看％{subnetwork}上的交易％{transaction}"
+msgstr "查看%{subnetwork}上的交易%{transaction}"
 
 #: lib/block_scout_web/templates/smart_contract/_functions.html.eex:49
 msgid "WEI"
