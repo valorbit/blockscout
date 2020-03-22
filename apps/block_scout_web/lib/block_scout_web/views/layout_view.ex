@@ -7,12 +7,12 @@ defmodule BlockScoutWeb.LayoutView do
   @issue_url "https://github.com/valorbit/blockscout/issues/new"
   @default_other_networks [
     %{
-      title: "VTR",
-      url: "https://ledger.valorether.com"
+      title: "VAL",
+      url: "https://ledger.valorbit.com"
     },
     %{
-      title: "VTR Granville",
-      url: "https://granville.valorether.com",
+      title: "VAL Granville",
+      url: "https://granville.valorbit.com",
       test_net?: true
     }
   ]
