@@ -7,12 +7,12 @@ defmodule BlockScoutWeb.LayoutView do
   @issue_url "https://github.com/valorbit/blockscout/issues/new"
   @default_other_networks [
     %{
-      title: "VAL",
-      url: "https://ledger.valorbit.com"
+      title: "Valorbit",
+      url: "http://ledger.valorbit.com"
     },
     %{
-      title: "VAL Granville",
-      url: "https://granville.valorbit.com",
+      title: "Valorbit Granville",
+      url: "http://granville.valorbit.com",
       test_net?: true
     }
   ]
@@ -99,7 +99,7 @@ defmodule BlockScoutWeb.LayoutView do
           nil
 
         release_link_env_var == "" || release_link_env_var == nil ->
-          "https://github.com/poanetwork/blockscout/releases/tag/" <> version
+          "https://github.com/valorbit/blockscout/releases/tag/" <> version
 
         true ->
           release_link_env_var
